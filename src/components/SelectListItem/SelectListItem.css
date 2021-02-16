@@ -1,0 +1,26 @@
+.selectListItem {
+    display: flex;
+
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    background: #ccc;
+}
+
+.selectListItem.disabled {
+    cursor: default;
+    pointer-events: none;
+
+    background: #999;
+}
+
+.selectListItem input {
+    cursor: pointer;
+}
+
+.selectListItem span {
+    margin-left: 10px;
+}

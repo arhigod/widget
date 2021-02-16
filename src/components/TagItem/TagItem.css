@@ -1,0 +1,12 @@
+.tagItem {
+    display: inline-flex;
+
+    width: 120px;
+    margin-right: 10px;
+    padding: 8px;
+
+    background: #eee;
+
+    justify-content: space-between;
+    align-items: baseline;
+}
